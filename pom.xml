@@ -106,7 +106,7 @@
         <mockito.version>1.9.5</mockito.version>
         <log4j.version>1.2.17</log4j.version>
         <cdh.version>5.7.2</cdh.version>
-        <hadoop.version>2.6.0</hadoop.version>
+        <hadoop.version>2.10.1</hadoop.version>
         <hive.version>1.1.0</hive.version>
         <metrics.version>3.1.1</metrics.version>
         <spark.version>2.1.0</spark.version>
@@ -352,7 +352,7 @@
             <dependency>
                 <groupId>org.apache.hadoop</groupId>
                 <artifactId>hadoop-common</artifactId>
-                <version>${hadoop.version}-cdh${cdh.version}</version>
+                <version>${hadoop.version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
